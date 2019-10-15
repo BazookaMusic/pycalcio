@@ -81,7 +81,6 @@ def div_expr(expr):
 def minus_expr(expr):
     """A multiplication expression is defined by the operator - """
     if expr == "":
-    if expr == "":
         return 0
     
     tokens = split_according_to_operator("-",expr)
@@ -95,7 +94,6 @@ def minus_expr(expr):
 
 def plus_expr(expr):
     """A multiplication expression is defined by the operator +"""
-    if expr == "":
     if expr == "":
         return 0
 
